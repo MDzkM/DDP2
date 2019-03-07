@@ -1,6 +1,10 @@
 public class Usia{
   public static void main (String[] args) {
+
+    // Declare variables.
     int usia = 19;
+
+    // If else statements to determine age group.
     if (usia <= 10) {
       System.out.println("Orang berusia " + usia + " masih anak-anak");
     }
