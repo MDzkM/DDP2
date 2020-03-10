@@ -54,4 +54,4 @@ https://openjfx.io/
 The inclusion of the **JavaFX** directory during compiling or runtime or when opening it as a project from **Eclipse** will not be explained here as there are many guides and threads online that already feature the code.
 
 ## Credits
-All credits for the tasks goes to the original problem setters and also the **Faculty of Computer Science, Universitas Indonesia**.
+All credits for the tasks goes to the original problem setters and also the [**Faculty of Computer Science, Universitas Indonesia**](https://www.cs.ui.ac.id/?lang=en).
