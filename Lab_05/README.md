@@ -1,6 +1,6 @@
 # Lab 05
 
-### Bangun sebuah Eclipse project untuk lab ini, yang akan terdiri dari dua buah class: MagicSquare dan
+### Bangun sebuah **Java** project untuk lab ini, yang akan terdiri dari dua buah class: MagicSquare dan
 
 ### TestMagicSquare. Export seluruh project sebagai sebuah runnable JAR file yang bisa dijalankan di luar
 

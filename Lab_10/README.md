@@ -2,27 +2,11 @@
 
 ## JavaFX Properties, Change Listeners, Sliders
 
-## Baca dokumen ini dengan seksama. Buat sebuah Eclipse project yang mencakup semua class (ada empat class)
+Baca dokumen ini dengan seksama. Buat sebuah Eclipse project yang mencakup semua class (ada empat class) yang diperlukan untuk lab ini.
 
-## yang diperlukan untuk lab ini.
+(A) JavaFX Properties
 
-## (A) JavaFX Properties
-
-## A JavaFX property is an object that holds a value, similar to a wrapper class object. But a property is observable,
-
-## which means that the property value can be monitored and changed as needed. Many JavaFX classes store
-
-## properties rather than regular instance data. For example, instead of storing an int value or an Integer object, a
-
-## JavaFX class might store an IntegerProperty object.
-
-## A key benefit to using properties is the concept of property binding. A property can be bound to another property,
-
-## so that when the value of one property changes, the other is automaticcally updated. For example, the radius of
-
-## the Circle class is represented by a DoubleProperty object, which could be bound to the property that represents
-
-## the width of a Scene, so that the circle size changes automatically as the window is resized.
+A JavaFX property is an object that holds a value, similar to a wrapper class object. But a property is observable, which means that the property value can be monitored and changed as needed. Many JavaFX classes store properties rather than regular instance data. For example, instead of storing an int value or an Integer object, a JavaFX class might store an IntegerProperty object. A key benefit to using properties is the concept of property binding. A property can be bound to another property, so that when the value of one property changes, the other is automaticcally updated. For example, the radius of the Circle class is represented by a DoubleProperty object, which could be bound to the property that represents the width of a Scene, so that the circle size changes automatically as the window is resized.
 
 ## The following program displays a small circle in the center of the scene, as well as two Text objects in the upper
 

@@ -6,19 +6,28 @@
 
 Bangun sebuah program **Java** dengan menggunakan library **JavaFX** yang melakukan animasi sebuah bola bergerak menelusuri sebuah kurva kosinus cos(x). Apabila bola telah mencapai batas kanan atau kiri, ia bergerak dalam arah sebaliknya dan seterusnya. User dapat pause atau resume animasi dengan klik tombol mouse kiri/kanan. Sumbu-sumbu koordinat dan kurva kosinus digambar dari awal sebagai object Line dan object ```Polyline```. Contoh tampilan adalah sbb.:
 
+![Default State](images/default_state_1.png)
+![Default State](images/default_state_2.png)
+
 #### Untuk membantu Anda untuk menyelesaikan tugas di atas, berikut ini akan dipaparkan teknik-teknik animasi dengan JavaFX. Ikuti dengan cermat.
 
 ## Animation
 
 **JavaFX** provides the ```Animation``` class with the core functionality for all animations. There are several ways to construct an animation program. An effective one is to use the subclasses of the **JavaFX** ```Animation``` class. The abstract Animation class provides the core functionalities for animations in **JavaFX***. Many concrete subclasses of ```Animation``` are provided in **JavaFX**, such as ```PathTransition```, ```FadeTransition```, and ```Timeline```.
 
+![Animation Class Diagram](images/class_diagram_Animation.png)
+
 The ```autoReverse``` is a ```Boolean``` property that indicates whether an animation will reverse its direction on the next cycle. The ```cycleCount``` indicates the number of the cycles for the animation. You can use the constant ```Timeline.INDEFINITE``` to indicate an indefinite number of cycles. The rate defines the speed of the animation. A negative rate value indicates the opposite direction for the animation. The status is a read-only property that indicates the status of the animation (```Animation.Status.PAUSED```, ```Animation.Status.RUNNING```, and ```Animation.Status.STOPPED```). The methods ```pause()```, ```play()```, and ```stop()``` will pause, play, and stop an animation, respectively.
 
 The ```PathTransition``` class animates the moves of a node along a path from one end to the other over a given time. PathTransition is a subtype of Animation. The UML class diagram for the class is shown below.
 
+![PathTransition Class Diagram](images/class_diagram_PathTransition.png)
+
 The Duration class defines a duration of time. It is an immutable class. The class defines constants ```INDEFINITE```, ```ONE```, ```UNKNOWN```, and ```ZERO``` to represent an indefinte duration, one millisecond, unknown, and zero duration, respectively. You can use ```new Duration(double millis)``` to create an instance of Duration, the add, subtract, multiply, and divide methods to perform arithmetic operations, and the ```toHours()```, ```toMinutes()```, ```toSeconds()```, and ```toMillis()``` to return the number of hours, minutes, seconds, and milliseconds in this duration, respectively. You can also use ```compareTo``` to compare two durations. The constants ```NONE``` and ```ORTHOGONAL_TO_TANGENT``` are defined in ```PathTransition.OrientationType```. The latter specifies that the node is kept perpendicular (orthogonal) to the path’s tangent along the geometric path.
 
 Program berikut melakukan animasi sebuah rectangle bergerak sepanjang outline dari sebuah circle, dengan arah bolak-balik secara terus-menerus. Dengan cursor dalam circle, pressing tombol mouse menghentikan animasi dan releasing tombol mouse meneruskan animasi.
+
+![Sample PathTransition](images/sample_path_transition.png)
 
 ```java
 import javafx.animation.PathTransition;
