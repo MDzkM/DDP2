@@ -82,12 +82,13 @@ Struktur input di **Java** memiliki bentuk yang lebih kompleks dibanding pada **
 
 ```
 import java.util.Scanner;
-//some codes
-//...
-Scanner input = new Scanner(System.in); // #
-String newVar = input.readline(); // #
-System.out.println(newVar); // #
-//...
+
+    //some codes
+    //...
+    Scanner input = new Scanner(System.in); // #
+    String newVar = input.readline(); // #
+    System.out.println(newVar); // #
+    //...
 ```
 
 Untuk menggunakan objek Scanner, yang harus dilakukan pertama kali adalah mengimport java.util.Scanner (akan dijelaskan nanti). Kemudian, kita mengimplementasikan objek _scanner_ untuk membaca input dan menyimpannya di variabel **newVar**. Pencetakan variabel **newVar** (line #3) berfungsi untuk menunjukkan bahwa benar data yang diinput tersimpan di variabel **newVar**. Perlu diingat bahwa nilai yang terbaca oleh Scanner dianggap sebagai data tipe String. Berikut perbandingan kembali antara input di **Python** dengan di **Java** :
@@ -100,10 +101,10 @@ var = input();
 **Java**
 ```
 import java.util.Scanner;
+
     //...
     Scanner input = new Scanner(System.in);
     String var = input.nextLine();
-}
 ```
 
 #### ● While Loop

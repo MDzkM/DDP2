@@ -19,8 +19,10 @@ And also an additional of four programming assignments labeled as,
 
 Inside of each folders contain one or more ```*.java``` files which you can execute using the command,
 
-```javac FILENAME.java```<br>
-```java FILENAME```
+```
+javac FILENAME.java
+java FILENAME
+```
 
 or for **Java** versions **11** and above,
 
