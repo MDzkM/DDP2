@@ -10,12 +10,12 @@ Feel free to take a look around.
 ## File Structure
 This repository consists of 10 lab tasks inside the folders labeled,
 
-```Lab *```
+```Lab_*```
 
 
 And also an additional of four programming assignments labeled as,
 
-```TP *```
+```TP_*```
 
 Inside of each folders contain one or more ```*.java``` files which you can execute using the command,
 
