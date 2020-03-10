@@ -42,11 +42,11 @@ The solutions that use **JavaFX** might or might not work on your system dependi
 
 If you are using a later version of **Java** you can download standalone **JavaFX** packages here,
 
-```https://gluonhq.com/products/javafx/```
+https://gluonhq.com/products/javafx/
 
 or here,
 
-```https://openjfx.io/```
+https://openjfx.io/
 
 The inclusion of the **JavaFX** directory during compiling or runtime or when opening it as a project from **Eclipse** will not be explained here as there are many guides and threads online that already feature the code.
 
