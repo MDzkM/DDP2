@@ -20,7 +20,7 @@ Variabel di **Python** bersifat dynamic , sehingga kita bisa memasukan nilai den
 
 **Python**
 
-```
+```python
 var1 = 3
 var2 = 'Dek Depe'
 var3 = True
@@ -28,7 +28,7 @@ var1 = False # bisa
 ```
 
 **Java**
-```
+```java
 int var1 = 3 ;
 String var2 = "Dek Depe" ;
 boolean var3 = true;
@@ -46,7 +46,7 @@ Catatan (2): String di **Java** wajib menggunakan tanda kutip ( “ ... ” ). T
 Struktur kode If-Else pada **Python** dan **Java** kurang lebih sama. Perbedaannya adalah **Java** menggunakan **else if** sedangkan **Python** menggunakan **elif**.
 
 **Python**
-```
+```python
 nilai = 78
 huruf = ''
 if (nilai > 85 ):
@@ -61,7 +61,7 @@ print(huruf)
 ```
 
 **Java**
-```
+```java
 int nilai = 78 ;
 char huruf;
 if (nilai > 85 ) {
@@ -80,7 +80,7 @@ System.out.println(huruf);
 
 Struktur input di **Java** memiliki bentuk yang lebih kompleks dibanding pada **Python**, yaitu dengan format seperti ini :
 
-```
+```java
 import java.util.Scanner;
 
     // some codes
@@ -94,12 +94,12 @@ import java.util.Scanner;
 Untuk menggunakan objek Scanner, yang harus dilakukan pertama kali adalah mengimport java.util.Scanner (akan dijelaskan nanti). Kemudian, kita mengimplementasikan objek _scanner_ untuk membaca input dan menyimpannya di variabel **newVar**. Pencetakan variabel **newVar** (line #3) berfungsi untuk menunjukkan bahwa benar data yang diinput tersimpan di variabel **newVar**. Perlu diingat bahwa nilai yang terbaca oleh Scanner dianggap sebagai data tipe String. Berikut perbandingan kembali antara input di **Python** dengan di **Java** :
 
 **Python**
-```
+```python
 var = input();
 ```
 
 **Java**
-```
+```java
 import java.util.Scanner;
 
     // some codes
@@ -114,7 +114,7 @@ import java.util.Scanner;
 Struktur While-loop pada **Java** dan **Python** sama, yaitu dalam format while <kondisi>. Namun tidak seperti **Python**, kondisi di **Java** harus dibungkus dengan tanda kurung.
 
 **Python**
-```
+```python
 # print angka 0 sampai 9
 number = 0
 while number < 10 :
@@ -122,7 +122,7 @@ while number < 10 :
     number += 1
 ```
 **Java**
-```
+```java
 // print angka 0 sampai 9
 int number = 0 ;
 while (number < 10 ) {
@@ -134,7 +134,7 @@ while (number < 10 ) {
 
 Berikut adalah contoh program yang _wajib_ dibuat ketika pertama kali menggunakan suatu bahasa pemrograman. Apakah itu? Tentu saja program Hello World!
 
-```
+```java
 // disimpan dengan filename HelloWorld.java
 public class HelloWorld {
     public static void main (String[] args) {
@@ -146,7 +146,6 @@ public class HelloWorld {
 Hal pertama yang kita lakukan adalah membuat _file_ yang bernama **HelloWorld.java**. Ekstensi ```.java``` ini berguna untuk menunjukkan bahwa _file_ ini adalah suatu kode program yang dapat di-_compile_ oleh Java Compiler. Kemudian, kita membuat sebuah ```class```. Perhatikan bahwa nama ```class``` **HARUS** sama dengan nama _file_ dimana ```class``` tersebut dibuat. Lalu, kita membuat sebuah _method_ bernama ```main```. _Method_ ini berfungsi sebagai _entry-point_ (titik masuk) dari program Java sehingga saat program dijalankan, sistem akan langsung mencari fungsi ```main``` ini dan menjalankan kode yang ada didalamnya. ```System.out.println()``` digunakan untuk mencetak ke layar, seperti fungsi ```print()``` di Python. Untuk menjalankan program, pertama save _file_ terlebih dahulu, lalu buka Command Prompt di folder tempat menyimpan _file_ java tersebut dengan cara mengetik ```cmd``` di _address bar_ Windows Explorer tempat menyimpan _file_. Kita juga bisa membuka **Command Prompt** secara langsung dan menavigasikannya ke folder penyimpanan _file_ Java dengan menggunakan perintah ```cd [path direktori penyimpanan]```. Seperti telah disebutkan sebelumnya, Java adalah _compiled language_. Jadi, sebelum menjalankan program diharuskan meng-_compile_-nya terlebih dahulu, yaitu dengan perintah : ```javac [nama_file].java``` Langkah terakhir adalah menjalankan program yang sudah di-_compile_ dengan perintah : ```java [nama_file]``` (Perhatikan bahwa tidak ada ekstensi ```.java``` saat menjalankan program).
 
 ### Selamat, kamu sudah berhasil menjalankan program Hello World di Java!
-
 
 ## Tugas Lab
 
@@ -163,7 +162,7 @@ Setelah perpisahan yang haru dengan DDP1, Dek Depe akhirnya bertemu dengan teman
 
 ### Spesifikasi Usia.java dalam Python
 
-```
+```python
 usia = 19
 if (usia <= 10 ):
     print( "Orang berusia" , usia, "masih anak-anak" )
@@ -176,7 +175,7 @@ else :
 ```
 ### Spesifikasi Kabisat.java dalam Python
 
-```
+```python
 year = input( "Silakan masukkan tahun lahir Anda" )
 if (year% 400 == 0 ) :
     print( "Anda lahir di tahun kabisat." )
@@ -189,7 +188,7 @@ else :
 ```
 ### Spesifikasi SimpleLog.java dalam Python
 
-```
+```python
 # Program ini akan mencetak logaritma dari suatu bilangan dibulatkan ke bawah
 number = 100
 base = 2

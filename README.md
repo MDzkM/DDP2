@@ -24,14 +24,17 @@ javac FILENAME.java
 java FILENAME
 ```
 
-or for **Java** versions **11** and above,
+or for **Java** versions **11** and above (only works for single-file projects),
 
-(only works for single-file projects)<br>
-```java FILENAME.java```
+```
+java FILENAME.java
+```
 
 and some might also include a pre-packaged ```*.jar``` file that can be run with the command,
 
-```java -jar FILENAME.jar```
+```
+java -jar FILENAME.jar
+```
 
 Each folder will also include the original task in the form of ```README.md``` file.
 

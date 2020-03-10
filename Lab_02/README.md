@@ -12,7 +12,7 @@ In the API (Application Programming Interface) documentation, you can find the w
 
 The program listed below prints the minimum and maximum values for the int primitive type. Modify the program below so that it also prints the minimum and maximum values for byte, short, and long.
 
-```
+```java
 public class IntegerDemo {
     public static void main(String[] args) {
         System.out.println("Maximum int value: " + Integer.MAX_VALUE);
@@ -27,7 +27,7 @@ We often need to convert a value from a String to a primitive data type. For exa
 
 Here is a list of parsing methods in wrapper classes:
 
-```
+```java
 // These two methods are in the Byte class
 public static byte parseByte(String s)
 public static byte parseByte(String s, int radix)
@@ -55,6 +55,7 @@ public static double parseDouble(String s, int radix)
 
 Complete the program below by filling in the code specified in the embedded comments.
 
+```java
 public class StringConversion {
     public static void main(String[] args) {
         String value1 = "12345";
@@ -81,7 +82,6 @@ public class StringConversion {
         // Convert value6 to a float here
         // Print the converted value
 
-
         String value7 = "1ABC";
         //Assume that value7 contains a hexadecimal number. Convert it
         // to an int here
@@ -93,13 +93,13 @@ public class StringConversion {
         //Print the converted value
     }
 }
-
+```
 
 ### Part 3
 
 Study and run the program below, which uses the statement **switch** :
 
-```
+```java
 //**********************************************************
 // MyFactorial.java
 //
