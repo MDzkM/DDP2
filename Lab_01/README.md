@@ -1,20 +1,20 @@
-# Lab 01 : Pengenalan Java
+# Lab 01
 
-# Pengenalan Java
+## Pengenalan Java
 
 Di DDP 1 kita telah belajar konsep-konsep dasar pemrograman dengan menggunakan bahasa **Python**. Di DDP 2 ini kita akan memperdalam pemahaman pemrograman kita dengan konsep-konsep yang menarik seperti Object Oriented Programming dengan menggunakan bahasa pemrograman **Java**. Pasti timbul pertanyaan di benak masing-masing, kenapa memakai **Java**? Kenapa tidak pakai **Python** saja? Singkatnya, **Java** mempunyai kelebihan yaitu kejelasan struktur dalam pemrogramannya, sehingga membuat mudah untuk memahami konsep _Object Oriented_. Selain itu, **Java** juga termasuk bahasa pemrograman yang paling populer di dunia. Bahasanya dapat digunakan untuk membuat banyak hal di berbagai platform. Patut untuk dipelajari bukan?
 
-## Perbedaan Java dan Python
+### Perbedaan Java dan Python
 
-### Interpreted vs. Compiled
+#### Interpreted vs. Compiled
 
 **Python** merupakan salah satu _Interpreted Language_ , dimana saat program dijalankan, komputer akan mengeksekusi tiap instruksi satu per satu. Oleh karena itu kita bisa langsung menjalankan program **Python**. **Java** merupakan salah satu _Compiled Language_ , dimana setiap program harus diubah menjadi bahasa lain yang bisa dimengerti komputer, lalu setelah itu baru bisa dijalankan.
 
-### Struktur Kode
+#### Struktur Kode
 
 Perbedaan struktur kode **Python** dan **Java** cukup mencolok. Namun, pada dasarnya semua bahasa pemrograman memiliki tujuan yang sama, yaitu sebagai bahasa penghubung antara manusia yang membuat program dan komputer yang akan menjalan program. Sehingga, jika sudah memahami sebuah bahasa pemrograman, maka akan lebih mudah untuk memahami bahasa yang lain. Berikut perbedaan _syntax_ di **Python** dan **Java**:
 
-#### ● Declaring & Assigning Variables
+##### ● Declaring & Assigning Variables
 
 Variabel di **Python** bersifat dynamic , sehingga kita bisa memasukan nilai dengan tipe data apapun ke sebuah variabel dan kita bisa mengubah nilai variabel tersebut dengan tipe data yang berbeda. Variabel di **Java** bersifat static. Di **Java**, kita harus mendeklarasikan (memberi informasi) tipe data dari sebuah variabel secara eksplisit. Variabel tersebut juga hanya bisa diisi dengan nilai dengan tipe data yang sudah kita deklarasikan tadi.
 
@@ -41,7 +41,7 @@ Catatan: Setiap instruksi pada **Java** harus diakhiri titik koma / semicolon ( 
 
 Catatan (2): String di **Java** wajib menggunakan tanda kutip ( “ ... ” ). Tidak seperti **Python** yang bisa menggunakan tanda kutip maupun apostrof ( ‘ ... ’ )
 
-#### ● If-Else Conditions
+##### ● If-Else Conditions
 
 Struktur kode If-Else pada **Python** dan **Java** kurang lebih sama. Perbedaannya adalah **Java** menggunakan **else if** sedangkan **Python** menggunakan **elif**.
 
@@ -76,7 +76,7 @@ if (nilai > 85 ) {
 System.out.println(huruf);
 ```
 
-#### ● Input
+##### ● Input
 
 Struktur input di **Java** memiliki bentuk yang lebih kompleks dibanding pada **Python**, yaitu dengan format seperti ini :
 
@@ -109,7 +109,7 @@ import java.util.Scanner;
     // ...
 ```
 
-#### ● While Loop
+##### ● While Loop
 
 Struktur While-loop pada **Java** dan **Python** sama, yaitu dalam format while <kondisi>. Namun tidak seperti **Python**, kondisi di **Java** harus dibungkus dengan tanda kurung.
 
@@ -130,7 +130,7 @@ while (number < 10 ) {
     number++; // increment di Java, setara number += 1 di Python
 }
 ```
-## Membuat Program Java
+### Membuat Program Java
 
 Berikut adalah contoh program yang _wajib_ dibuat ketika pertama kali menggunakan suatu bahasa pemrograman. Apakah itu? Tentu saja program Hello World!
 
@@ -148,9 +148,9 @@ Hal pertama yang kita lakukan adalah membuat _file_ yang bernama **HelloWorld.ja
 ### Selamat, kamu sudah berhasil menjalankan program Hello World di Java!
 
 
-# Tugas Lab
+## Tugas Lab
 
-## Dari Ular Turun Ke Kopi
+### Dari Ular Turun Ke Kopi
 
 Setelah perpisahan yang haru dengan DDP1, Dek Depe akhirnya bertemu dengan teman barunya, yaitu DDP2! Kebetulan, kamu kali ini sekelas lagi dengan Dek Depe. Diam diam Tentu Dek Depe sangat senang karena kamu adalah orang yang baik hati dan sering membantunya. Sebelumnya, Dek Depe sangat senang membuat program menggunakan Python. Tetapi sekarang, ia harus membuat program dengan **Java**. Di suatu hari yang cerah, Dek Depe meminta kamu untuk bertemu dengannya di atap gedung baru. Kamu pun dengan senang hati menemui Dek Depe. Kemudian, di atap, Dek Depe sudah menunggu kamu. Kemudian dia menghampiri kamu dan berkata...
 
@@ -161,7 +161,7 @@ Setelah perpisahan yang haru dengan DDP1, Dek Depe akhirnya bertemu dengan teman
 **Soal Lab** : _Buatlah tiga buah file Java yang bernama ```Usia.java```, ```Kabisat.java```, dan ```SimpleLog.java```, yang masing-masing memiliki satu class dengan mengikuti nama file yang telah ditentukan dan melakukan hal yang serupa dengan apa yang dikerjakan oleh potongan kode **Python** pada masing-masing spesifikasi di bawah. Dalam menuliskan kode **Java**, pergunakan tipe data yang sesuai dan perhatikan coding style yang benar (indentation, penamaan variabel, dll) dan jangan lupa untuk menambahkan komentar pada bagian-bagian penting di kode masing-masing._
 
 
-## Spesifikasi Usia.java dalam Python
+### Spesifikasi Usia.java dalam Python
 
 ```
 usia = 19
@@ -174,7 +174,7 @@ elif (usia <= 50 ):
 else :
     print( "Orang berusia" , usia, "sudah tua" )
 ```
-## Spesifikasi Kabisat.java dalam Python
+### Spesifikasi Kabisat.java dalam Python
 
 ```
 year = input( "Silakan masukkan tahun lahir Anda" )
