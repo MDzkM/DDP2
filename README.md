@@ -1,7 +1,7 @@
 # Repository For DDP2 Class Archives.
 
 ## TL;DR
-This is a collection of solutions for DDP2 class in the academic year of 2018/2019 second semester. I created this repository to help those who need a learning material and/or sample codes to look at while also keeping a history of my past assignments.
+This is a collection of solutions for DDP2 class in the second semester of academic year 2018/2019. I created this repository to help those who need a learning material and/or sample codes to look at while also keeping a history of my past assignments.
 
 However, I must emphasize that the solutions displayed here are not guaranteed to be the most optimal and by far something that I can claim a best practice. So don't forget to learn and practice from another source.
 
@@ -39,9 +39,9 @@ java -jar FILENAME.jar
 Each folder will also include the original task in the form of ```README.md``` file.
 
 ## Additional Info
-Most of the solutions stored here were created in **Eclipse** so there might be some files that contains warnings or even errors like ```packages not found``` or ```FILENAME is non-project file```.
+Most of the solutions stored here were created in **Eclipse** so there might be some files that contain warnings or even errors like ```packages not found``` or ```FILENAME is non-project file``` when opened in a different code editor/IDE.
 
-The solutions that use **JavaFX** might or might not work on your system depending on the version of **Java** you are using. As of the time of writing this, the status for **JavaFX** packages are only included in **Java** versions **8** or lower.
+The solutions that use **JavaFX** might or might not work on your system depending on the version of **Java** you are using. As of the time of writing this, **JavaFX** packages are only included in **Java** versions **8** or lower.
 
 If you are using a later version of **Java** you can download standalone **JavaFX** packages here,
 
