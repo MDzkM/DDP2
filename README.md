@@ -13,11 +13,11 @@ This repository consists of 10 lab tasks inside the folders labeled,
 ```Lab_*```
 
 
-And also an additional of four programming assignments labeled as,
+And an additional of four programming assignments labeled as,
 
 ```TP_*```
 
-Inside of each folders contain one or more ```*.java``` files which you can execute using the command,
+Each folder contains one or more ```*.java``` files which you can execute using the command,
 
 ```
 javac FILENAME.java
@@ -30,7 +30,7 @@ or for **Java** versions **11** and above (only works for single-file projects),
 java FILENAME.java
 ```
 
-and some might also include a pre-packaged ```*.jar``` file that can be run with the command,
+Some might also include a pre-packaged ```*.jar``` file that can be run with the command,
 
 ```
 java -jar FILENAME.jar
